@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Clément LOURY - Présentation</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Clément LOURY" name="keywords">
+        <meta content="Site de clément loury" name="description">
+
+        <link href="img/favicon.ico" rel="icon">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
+                    <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="img/profile.png" alt="photo de profil">
+                    <h1 class="font-weight-bold">Clément LOURY</h1>
+                    <p class="mb-4">
+                        Étudiant en première année à l'IESEG School of Management
+                    </p>
+                    <div class="d-flex justify-content-center mb-5">
+                        <a class="btn btn-outline-primary mr-2" href="https://www.facebook.com/profile.php?id=100074090497622"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-primary mr-2" href="https://www.linkedin.com/in/clement-loury-ieseg/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-primary mr-2" href="https://www.instagram.com/clement_.lryy/"><i class="fab fa-instagram"></i></a>
+                    </div>
+            </div>
+            <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
+                <i class="fas fa-2x fa-angle-double-right text-primary"></i>
+            </div>
+        </div>
+            <div class="content">
+                <div class="container p-0">
+                    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                        <a href="" class="navbar-brand d-block d-lg-none">Navigation</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav m-auto">
+                                <a href="index.html" class="nav-item nav-link active">Accueil</a>
+                                <a href="about.html" class="nav-item nav-link">À propos</a>
+                                <a href="contact.html" class="nav-item nav-link">Contactez moi</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            <div class="container py-5 px-2 bg-primary">
+                <div class="row py-5 px-4">
+                    <div class="col-sm-6 text-center text-md-left">
+                        <h1 class="mb-3 mb-md-0 text-white text-uppercase font-weight-bold">Contactez moi</h1>
+                    </div>
+                    <div class="col-sm-6 text-center text-md-right">
+                        <div class="d-inline-flex pt-2">
+                            <h4 class="m-0 text-white"><a class="text-white" href="">Accueil</a></h4>
+                            <h4 class="m-0 text-white px-2">/</h4>
+                            <h4 class="m-0 text-white">Contactez moi</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container bg-white pt-5">
+                <div class="row px-3 pb-2">
+                    <div class="col-sm-4 text-center mb-3">
+                        <i class="fa fa-2x fa-map-marker-alt mb-3 text-primary"></i>
+                        <h4 class="font-weight-bold">Addresse</h4>
+                        <p>73 rue de sèvres, 92100 Boulogne-Billancourt</p>
+                    </div>
+                    <div class="col-sm-4 text-center mb-3">
+                        <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
+                        <h4 class="font-weight-bold">Numéro de téléphone</h4>
+                        <p>+33 7 82 85 50 19</p>
+                    </div>
+                    <div class="col-sm-4 text-center mb-3">
+                        <i class="far fa-2x fa-envelope mb-3 text-primary"></i>
+                        <h4 class="font-weight-bold">Email</h4>
+                        <p>clement.loury@ieseg.fr</p>
+                    </div>
+                    <div class="col-sm-4 text-center mb-3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.294238768362!2d2.2297459999999996!3d48.833526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67b1e06195161%3A0x11a6454f7caf9152!2s73%20Rue%20de%20Sevres%2C%2092100%20Boulogne-Billancourt!5e0!3m2!1sfr!2sfr!4v1677753597913!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                </div>
+                <div class="col-md-12 pb-5">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" rows="8" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary" type="submit" id="sendMessageButton">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-4 bg-secondary text-center">
+                <p class="m-0 text-white">
+                        &copy; <a class="text-white font-weight-bold" href="#">Clément Loury</a>. Tous droits réservés.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
